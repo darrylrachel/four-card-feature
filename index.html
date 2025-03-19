@@ -1,13 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/main.css">  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <p class="heading">Reliable, efficient delivery</p>
+            <p class="sub-heading">Powered by Technology</p>
+            <p class="sub-text">Our Artificial Intelligence powered tools use millions of projcet data points to ensure
+            that your project is successful</p>
+        </div>
+        <div class="cards">
+            <div class="card supervisor">
+                <p>Supervisor</p>
+                <p>Monitors activity to identify project roadblocks</p>
+                <div class="card-img">
+                    <img src="/public/images/icon-supervisor.svg" alt="Supervisor Icon">
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card team-builder">
+                    <p>Team Builder</p>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                    <div class="card-img">
+                        <img src="/public/images/icon-team-builder.svg" alt="">
+                    </div>
+                </div>
+                <div class="card karma">
+                    <p>karma</p>
+                    <p>Regularly evaluates our talent to ensure quality</p>
+                    <div class="card-img">
+                        <img src="/public/images/icon-karma.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card calculator">
+                <p>Calculator</p>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+                <div class="card-img">
+                    <img src="/public/images/icon-calculator.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--  Reliable, efficient delivery-->
+<!--  Powered by Technology-->
+
+<!--  Our Artificial Intelligence powered tools use millions of project data points -->
+<!--  to ensure that your project is successful-->
+
+<!--  Supervisor-->
+<!--  Monitors activity to identify project roadblocks-->
+
+<!--  Team Builder-->
+<!--  Scans our talent network to create the optimal team for your project-->
+
+<!--  Karma-->
+<!--  Regularly evaluates our talent to ensure quality-->
+
+<!--  Calculator-->
+<!--  Uses data from past projects to provide better delivery estimates-->
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="/src/main.js"></script>
+</body>
 </html>
